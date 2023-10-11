@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    /*font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-base);
+    line-height: var(--line-height-base);
+    color: var(--body-color);
+    text-align: var(--body-text-align);
+    background-color: var(--body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+}
+
+header {
+    display: block;
+}
+
+#header {
+    position: sticky;
+    top: -1px;
+    left: 0;
+    right: 0;
+    transform: translateZ(0);
+    z-index: 1061;
+    color: white;
+}
+
+.bg-navy-dark {
+    background-color: #061D2E ;
+}
