@@ -5,62 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tim Berners-Lee | Biography, Education, Internet, Contributions, & Facts | Britannica</title>
     <link rel="stylesheet" href="styles.css"> 
-  </head>
+    <link rel="icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
   <body>
+
     <header id="header" class="bg-navy-dark">
-      <img src="https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png" alt="Encyclopedia Britannica">
-      <em data-icon="menu"></em>
-      <p>Browse</p>
-      <em data-icon="search"></em>
-      <p>Search</p>
-      <nav>
+      
+      <span class="material-symbols-outlined nav menu-button">menu</span>      
+      <span class="material-symbols-outlined nav">search</span>      
+      <img class="nav" src="https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png" alt="Encyclopedia Britannica">
+      <span class="material-symbols-outlined nav">account_circle</span>
+      <span class="material-symbols-outlined nav">keyboard_arrow_down</span>
+
+      <a class="nav" id="subscribe" href="https://premium.britannica.com/premium-membership/?utm_source=premium&amp;utm_medium=global-nav-mobile&amp;utm_campaign=evergreen" target="_blank" rel="noopener">
+        Subscribe
+     </a>
+
+      <p class="nav hide">Browse</p>
+      <p class="nav hide">Search</p>
+      <nav class="nav hide">
         <ul>
           <li><a href="#">Search</a></li>
           <li><a href="#">Dictionary</a></li>
           <li><a href="#">Quizzes</a></li>
           <li><a href="#">Money</a></li>
         </ul>
-        <a href="https://premium.britannica.com/premium-membership/?utm_source=premium&amp;utm_medium=global-nav-mobile&amp;utm_campaign=evergreen" target="_blank" rel="noopener">
-          Subscribe
-       </a>
-       <button>
+        
+       <button class="nav hide">
           Login
-          <em data-icon="account_circle"></em>
-          <em data-icon="keyboard_arrow_down"></em>
           <em data-icon="keyboard_arrow_up"></em>
         </button>
       </nav>  
     </header>
 
-    <nav class="breadcrumb mt-20 mb-30">
+    <nav class="breadcrumb">
       <a href="/">Home</a>
+      <span class="material-symbols-outlined">chevron_right</span>
       <a href="/browse/Science">Science</a>
+      <span class="material-symbols-outlined">chevron_right</span>
       <a href="/browse/Mathematics">Mathematics</a>
     </nav>
 
     <main>
-      <h1 >Tim Berners-Lee</h1>
-      <p>British scientist</p>
-
+      <div class="toparticle"></div>
+        <p class="topic">Science & Tech</p>
+      <div class="title">
+        <h1 >Tim Berners-Lee</h1>
+        <p>British scientist</p>
+      </div>
+      <button class="action" class="js-tooltip btn btn-xs btn-outline-blue border shadow-sm pr-10">
+        <span class="material-symbols-outlined">more_vert</span>
+        <p class="d_hide">Actions</p>
+      </button>
+      </div>
       <div>
-        <a href="/print/article/62493" target="_blank">
-          <em data-icon="print"></em>
+        <a class="action hide" href="/print/article/62493" target="_blank">
+          <span class="material-symbols-outlined">print</span>
           Print
         </a>
-        <button data-modal="[data-topic-id=62493]  .md-cite-modal" data-modal-initialized="true">
-            <em data-icon="verified"></em>
-            Cite
+        <button class="action hide" data-modal="[data-topic-id=62493]  .md-cite-modal" data-modal-initialized="true">
+          <span class="material-symbols-outlined">verified</span>
+          Cite
         </button>
-        <button data-modal=".md-share-modal62493" data-modal-initialized="true">
-          <em data-icon="share"></em>
+        <button class="action hide" data-modal=".md-share-modal62493" data-modal-initialized="true">
+        <span class="material-symbols-outlined">share</span>
           Share
         </button>
-        <button data-modal=".md-feedback-modal" data-modal-initialized="true">
-          <em data-icon="message"></em>
+        <button class="action hide" data-modal=".md-feedback-modal" data-modal-initialized="true">
+          <span class="material-symbols-outlined">chat</span>
           Feedback
         </button>
-        <button class="js-tooltip btn btn-xs btn-outline-blue border shadow-sm pr-10">
-          <em class="material-icons md-icon ml-n5" data-icon="more_vert"></em>
+        <button class="action hide">        
+          <span class="material-symbols-outlined">more_vert</span>
         </button>
       </div>
     
@@ -75,6 +94,8 @@
       </div>
 
       <div>
+        <div class="box">
+        <div id="photo">
         <a href="https://cdn.britannica.com/22/221822-050-3B0A657F/British-scientist-Tim-Berners-Lee.jpg" data-href="/media/1/62493/253280">
           <img src="https://cdn.britannica.com/22/221822-050-3B0A657F/British-scientist-Tim-Berners-Lee.jpg?w=400&amp;h=300&amp;c=crop" alt="Tim Berners-Lee">
           <button aria-label="Zoom in">
@@ -83,7 +104,8 @@
         </a>
         <p>Tim Berners-Lee</p>
         <a href="https://www.britannica.com/biography/Tim-Berners-Lee/images-videos">See all media</a>
-        
+        </div>
+        <a href="">See all media</a>
         <hr>
 
         <dl>
@@ -108,7 +130,7 @@
         </dl>
 
         <a href="/facts/Tim-Berners-Lee">See all related content →</a>
-
+      </div>
       </div>
       
       <p class="topic-paragraph"><strong><span id="ref796236"></span>Tim Berners-Lee</strong>, in full <strong>Sir Tim Berners-Lee</strong>,  (born June 8, 1955, <a href="https://www.britannica.com/place/London" class="md-crosslink autoxref" data-show-preview="true">London</a>, England), British computer scientist, generally <a class="md-dictionary-link md-dictionary-tt-off eb" data-term="credited" href="https://www.britannica.com/dictionary/credited" data-type="EB">credited</a> as the inventor of the <a href="https://www.britannica.com/topic/World-Wide-Web" class="md-crosslink" data-show-preview="true">World Wide Web</a>. In 2004 he was awarded a knighthood by Queen <a href="https://www.britannica.com/biography/Elizabeth-II" class="md-crosslink" data-show-preview="true">Elizabeth II</a> of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.</p>

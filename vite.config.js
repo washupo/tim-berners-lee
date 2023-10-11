@@ -3,7 +3,7 @@ import { resolve } from "path";
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-	base: '/restaurant-css-framework/',
+	base: '/tim-berners-lee/',
 	  root: path.resolve(__dirname),
   	build: {
     outDir: "../dist",

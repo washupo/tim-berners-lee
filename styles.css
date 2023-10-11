@@ -13,6 +13,11 @@ body {
 
 header {
     display: block;
+    overflow: hidden;
+}
+
+header > .nav {
+
 }
 
 #header {
@@ -27,4 +32,90 @@ header {
 
 .bg-navy-dark {
     background-color: #061D2E ;
+}
+
+.hide {
+    display: none;
+  }
+
+.menu-button:focus + .hide {
+    display: block;
+  }
+
+#subscribe {
+    background-color: #973100;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#topic {
+    background-color: #FED7AA;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 3px;
+    padding: 3px;
+    
+}
+
+.breadcrumb {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    padding-top: 10px;
+}
+
+.breadcrumb > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.topic {
+   background-color: #FED7AA; 
+}
+
+.action {
+    
+}
+
+.toparticle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-area: 
+    "topic action"
+    "title action";
+}
+
+.toparticle > .topic {
+    grid-area: topic; 
+}
+.toparticle > title {
+    grid-area: title; 
+}
+.toparticle > button {
+    grid-area: action; 
+}
+
+.box { 
+    border: gray 1px;
+}
+
+#photo {
+    border: gray 1px;
+    border-radius: 7px;
+    box-shadow: black;
 }
