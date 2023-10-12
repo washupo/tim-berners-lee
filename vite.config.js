@@ -6,7 +6,7 @@ export default defineConfig({
 	base: '/tim-berners-lee/',
 	  root: path.resolve(__dirname),
   	build: {
-    outDir: "../dist",
+    outDir: "dist",
     rollupOptions: {
       input: {
         index: path.resolve(__dirname, "index.html"),
