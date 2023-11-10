@@ -4,7 +4,7 @@
 
 #Live demo
 [Live demo](https://washupo.github.io/tim-berners-lee/)
-<!-  ## Lien des consignes
+<!--  ## Lien des consignes
 [https://github.com/becodeorg/Swartz-8/blob/main/1.The-Field/8.Html-CSS/tim-berners-lee.adoc](https://github.com/becodeorg/Swartz-8/blob/main/1.The-Field/8.Html-CSS/tim-berners-lee.adoc) -->
 
 ## Langages utilisés ?
